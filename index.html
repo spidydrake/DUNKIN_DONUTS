@@ -3,294 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="A refreshed Dunkin'-inspired landing page focused on rewards, mobile ordering, seasonal promos, and store discovery."
+    >
     <link rel="stylesheet" href="CSS/styles.css">
-    <script
-            src="https://kit.fontawesome.com/3bfd3ce9e5.js"
-            crossorigin="anonymous"
-    ></script>
-    <title>DUNKIN' DONUTS</title>
+    <title>Dunkin' Rewards</title>
 </head>
 <body>
-    <div class="body">
-        <div class="fixed-class">
-            <div class="top-nav">
-                <div class="utility">
-                    <button class="buttons overide-career">
-                        Careers
-                        <span class="icon">
-                            <i class='fas fa-chevron-down'></i>
-                        </span>
-                    </button>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="utility-bar">
+                <p class="utility-copy">Come run with us. Apply to join our exceptional team.</p>
+                <div class="utility-actions">
+                    <a href="https://careers.dunkindonuts.com/us/en" class="pill-button button-secondary">Careers</a>
+                    <a href="https://www.dunkindonuts.com/en/dunkinrewards/registration" class="pill-button button-secondary">Sign Up</a>
+                    <a href="https://www.dunkindonuts.com/en/sign-in" class="pill-button button-primary">Sign In</a>
                 </div>
-                <a href="https://www.dunkindonuts.com/en/dunkinrewards/registration" class="buttons white signUp_btn">sign up</a>
-                <a href="https://www.dunkindonuts.com/en/sign-in" class="buttons pink">sign in</a>
             </div>
-            <div class="navbar">
-                <ul class="nav brown">
-                    <li class="navs small">
-                        <p>menu</p>
-                    </li>
-                    <li class="navs">
-                        <p>location</p>
-                    </li>
-                    <li class="navs small">
-                        <p>delivery</p>
-                    </li>
-                    <li class="navs orange">
-                        dunkin<span class="darkpink">'</span>
-                    </li>
-                    <li class="navs small">
-                        <p>dunkin' rewards</p>
-                    </li>
-                    <li class="navs">
-                        <p>dunkin' card</p>
-                    </li>
-                    <li class="navs">
-                        <p>shop</p>
-                    </li>
+            <div class="main-nav">
+                <a href="#top" class="brand-mark" aria-label="Dunkin' home">
+                    dunkin<span>'</span>
+                </a>
+                <nav aria-label="Primary navigation">
+                    <ul class="nav-list">
+                        <li><a href="#rewards">Rewards</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#app">App</a></li>
+                        <li><a href="#gift-cards">Gift Cards</a></li>
+                        <li><a href="#locations">Locations</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main id="top">
+            <section class="hero section-frame">
+                <div class="hero-copy">
+                    <p class="eyebrow">Dunkin' Rewards</p>
+                    <h1>A new way to run your daily Dunkin'.</h1>
+                    <p class="hero-text">
+                        Earn points on every order, unlock better perks, and move from craving to checkout faster with a cleaner rewards experience.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="https://www.dunkindonuts.com/en/dunkinrewards/registration" class="pill-button button-primary">Join Rewards</a>
+                        <a href="#app" class="pill-button button-secondary">See How It Works</a>
+                    </div>
+                    <ul class="hero-metrics" aria-label="Rewards highlights">
+                        <li><strong>10 points</strong><span>per $1 spent</span></li>
+                        <li><strong>150 points</strong><span>starts free rewards</span></li>
+                        <li><strong>12 visits</strong><span>unlocks boosted status</span></li>
+                    </ul>
+                </div>
+                <div class="hero-media">
+                    <img src="assets/asset 10.png" alt="Dunkin' mobile app framed by donuts and pastries">
+                </div>
+            </section>
+
+            <section class="promo-strip">
+                <p>Rewards should feel simple. Earn, redeem, and reorder with less friction and a stronger mobile-first flow.</p>
+            </section>
+
+            <section class="feature-section section-frame" id="rewards">
+                <div class="section-heading">
+                    <p class="eyebrow">Why It Works</p>
+                    <h2>Three reasons the rewards experience lands better.</h2>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <div class="feature-art">
+                            <img src="assets/asset 7.png" alt="Rewards card and coffee illustration">
+                        </div>
+                        <h3>Earn Points However You Pay</h3>
+                        <p>Order ahead in the app or scan your Dunkin' Rewards ID in-store to earn 10 points for every dollar spent.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-art">
+                            <img src="assets/asset 8.png" alt="Donut reward illustration">
+                        </div>
+                        <h3>Turn Points Into Real Rewards</h3>
+                        <p>Free favorites start at 150 points, so the path from purchase to payoff feels fast and worth repeating.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-art">
+                            <img src="assets/asset 9.png" alt="Boosted status illustration">
+                        </div>
+                        <h3>Unlock Boosted Status</h3>
+                        <p>Make 12 visits in a calendar month and level up to 12 points per dollar for the runs you were already making.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="app-section section-frame" id="app">
+                <div class="app-copy">
+                    <p class="eyebrow">Dunkin' Done Easy</p>
+                    <h2>Order ahead, earn faster, and keep your routine moving.</h2>
+                    <p>
+                        Find a store, customize your order, pay from your phone, and keep your rewards in one place. The experience should feel quick before you even get to the counter.
+                    </p>
+                    <ul class="benefit-list">
+                        <li>Order ahead and pay from your phone.</li>
+                        <li>Track rewards progress without digging through menus.</li>
+                        <li>Get offers and freebies that feel connected to your routine.</li>
+                    </ul>
+                    <div class="store-badges" aria-label="Download the app">
+                        <a href="https://www.dunkindonuts.com/en/app" class="store-badge">
+                            <img src="assets/asset 12.png" alt="Download on the App Store">
+                        </a>
+                        <a href="https://www.dunkindonuts.com/en/app" class="store-badge">
+                            <img src="assets/asset 11.png" alt="Get it on Google Play">
+                        </a>
+                    </div>
+                </div>
+                <div class="app-visual">
+                    <img src="assets/iphone_web.png" alt="Dunkin' mobile app on a phone screen">
+                </div>
+            </section>
+
+            <section class="seasonal-banner section-frame" id="menu">
+                <div class="seasonal-overlay">
+                    <p class="eyebrow">Seasonal Spotlight</p>
+                    <h2>Uppin' the pumpkin.</h2>
+                    <p>Try a Pumpkin Spice Signature Latte and pair it with a favorite bakery item for a fall run that actually feels seasonal.</p>
+                    <a href="#locations" class="pill-button button-primary">Find a Store</a>
+                </div>
+            </section>
+
+            <section class="menu-section section-frame">
+                <div class="section-heading">
+                    <p class="eyebrow">Menu Picks</p>
+                    <h2>Built around the drinks and food people actually come back for.</h2>
+                </div>
+                <div class="menu-grid">
+                    <article class="menu-card menu-card-wide">
+                        <div class="menu-card-copy">
+                            <p class="card-tag">Sipping Is Believing</p>
+                            <h3>Hand Crafted Espresso Drinks</h3>
+                            <p>Layered, iced, or hot, espresso drinks carry the strongest visual and product energy on the page.</p>
+                        </div>
+                        <img src="assets/asset 14.jpeg" alt="Dunkin' espresso drink">
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-copy">
+                            <p class="card-tag">Freshly Made</p>
+                            <h3>All-Day Breakfast Sandwiches</h3>
+                            <p>A stronger card layout makes supporting food items feel intentional instead of secondary filler.</p>
+                        </div>
+                        <img src="assets/asset 15.png" alt="Breakfast sandwich">
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-copy">
+                            <p class="card-tag">Dunkin' Classic</p>
+                            <h3>Hot Coffee</h3>
+                            <p>Clear visual contrast gives core staples room to stand on their own without competing with the hero.</p>
+                        </div>
+                        <img src="assets/asset 16.jpeg" alt="Hot coffee cup">
+                    </article>
+                </div>
+            </section>
+
+            <section class="split-promo section-frame" id="gift-cards">
+                <article class="promo-card promo-card-image">
+                    <img src="assets/back_to_school_desktop.png" alt="Back to school Dunkin' gift card promotion">
+                    <div class="promo-card-copy">
+                        <p class="eyebrow">Gift Cards</p>
+                        <h2>Fuel for back-to-school runs.</h2>
+                        <p>Send an eGift card and cover someone else's coffee run, whether they are headed to class or into a long day of teaching.</p>
+                        <a href="#" class="pill-button button-primary">Send an eGift Card</a>
+                    </div>
+                </article>
+                <article class="promo-card promo-card-location" id="locations">
+                    <div class="promo-card-copy">
+                        <p class="eyebrow">Come Visit</p>
+                        <h2>Find a Dunkin' near you.</h2>
+                        <p>Store discovery should be fast, readable, and always available from the page without looking buried.</p>
+                        <a href="https://locations.dunkindonuts.com/en" class="pill-button button-primary">View Locations</a>
+                    </div>
+                    <img src="assets/asset 19.svg" alt="Illustrated map and location marker">
+                </article>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-grid">
+                <section>
+                    <p class="footer-heading">Quick Links</p>
+                    <ul class="footer-links">
+                        <li><a href="#">Press Room</a></li>
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">Corporate</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Franchising</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <p class="footer-heading">Follow Us</p>
+                    <ul class="social-list">
+                        <li><a href="#" aria-label="Follow on X"><img src="assets/asset 20.svg" alt=""></a></li>
+                        <li><a href="#" aria-label="Follow on Facebook"><img src="assets/asset 21.svg" alt=""></a></li>
+                        <li><a href="#" aria-label="Follow on Instagram"><img src="assets/asset 22.svg" alt=""></a></li>
+                        <li><a href="#" aria-label="Follow on TikTok"><img src="assets/asset 23.svg" alt=""></a></li>
+                        <li><a href="#" aria-label="Follow on YouTube"><img src="assets/asset 24.svg" alt=""></a></li>
+                        <li><a href="#" aria-label="Follow on Pinterest"><img src="assets/asset 25.svg" alt=""></a></li>
+                    </ul>
+                </section>
+            </div>
+
+            <section class="partner-strip" aria-label="Brand partners">
+                <p class="footer-heading">Our Partners</p>
+                <div class="partner-logos">
+                    <img src="assets/asset 26.png" alt="JetBlue logo">
+                    <img src="assets/asset 27.png" alt="Baskin-Robbins logo">
+                    <img src="assets/RedSox.jpg" alt="Boston Red Sox logo">
+                    <img src="assets/new-england-patriots.png" alt="New England Patriots logo">
+                    <img src="assets/boston-celtics.png" alt="Boston Celtics logo">
+                    <img src="assets/boston-bruins.png" alt="Boston Bruins logo">
+                    <img src="assets/NERevsLogo2.png" alt="New England Revolution logo">
+                </div>
+            </section>
+
+            <div class="footer-bottom">
+                <ul class="legal-links">
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Do Not Sell My Personal Info</a></li>
+                    <li><a href="#">Your Ad Choices</a></li>
+                    <li><a href="#">CA Transparency in Supply Chains Act</a></li>
+                    <li><a href="#">Web Accessibility</a></li>
                 </ul>
+                <p>&copy; 2023 DD IP Holder LLC</p>
             </div>
-        </div>
-        <div class="info">
-            Come run with us! Apply to join our exceptional team
-            <a href="https://careers.dunkindonuts.com/us/en" style="color: white; font-family: Ubuntu; font-weight: bold;">here</a>.
-        </div>
-        <div class="main-screen">
-            <img src="/assets/Manage_Profile_Header_Desktop.png" alt="dounut and coffee" class="image">
-            <h1 class="title-content">
-                <span class="center-1">
-                    dunkin<span class="center-2">' rewards</span>
-                    <br>
-                    <span class="center-3">a new way to run</span>
-                </span>
-            </h1> 
-        </div>
-        <div class="large-select-grid">
-            <div class="grid-select">
-                <div class="interactive-images">
-                    <img src="/assets/asset 7.png" alt="image">
-                </div>
-                <div class="interactive-images-text">
-                    EARN POINTS ANY<br>WAY YOU PAY
-                </div>
-                <div class="interactive-images-text-bottom">
-                    Order ahead in the app or scan your Dunkin’ Rewards ID in-store to earn 10 points per $1 spent
-                </div>
-            </div>
-            <div class="grid-select">
-                <div class="interactive-images">
-                    <img src="/assets/asset 8.png" alt="image">
-                </div>
-                <div class="interactive-images-text">
-                    TURN POINTS INTO REWARDS
-                </div>
-                <div class="interactive-images-text-bottom">
-                    Rewards start at just 150 points – only $15 spent!
-                </div>
-            </div>
-            <div class="grid-select">
-                <div class="interactive-images">
-                    <img src="/assets/asset 9.png" alt="image">
-                </div>
-                <div class="interactive-images-text">
-                    UNLOCK BOOSTED<br>STATUS
-                </div>
-                <div class="interactive-images-text-bottom">
-                    12 visits in a calendar month earns 12 points per dollar!
-                </div>
-            </div>
-        </div>
-        <div class="learn-more">
-            <a href="https://www.dunkindonuts.com/en/dunkinrewards/registration" class="buttons pink button-change">sign up</a>
-            <a href="https://www.dunkindonuts.com/en/sign-in" class="buttons white button-change">learn more</a>
-        </div>
-        <div class="second-slide">
-            <div class="second-grid box">
-                <div class="sec-slide-0">
-                    <div class="orange">
-                        dunkin<span class="darkpink">'</span>
-                    </div>
-                    done easy
-                </div>
-                <div class="sec-slide-1">
-                    Find a store, place your order and get on your way with the Dunkin’ App
-                </div>
-                <div class="sec-slide-2">
-                    <ul class="points">
-                        <li>Order ahead and pay from your phone</li>
-                        <li>Join Dunkin’ Rewards and earn points towards free food and beverages</li>
-                        <li>Earn exclusive offers and rewards</li>
-                    </ul>
-                </div>
-                <div class="sec-slide-3">
-                    <img src="/assets/asset 12.png" alt="image">
-                    <img src="/assets/asset 11.png" alt="image">
-                </div>
-            </div>
-            <div class="box">
-                <img src="/assets/iphone_web.png" alt="image" style="width: 100%;">
-            </div>
-        </div>
-        <div class="large-banner-third">
-            <div class="third-content">
-                <h2 class="orange">UPPIN' THE <br> PUMPKIN</h2>
-                <div>Here Comes Pumpkin!</div>
-                <div>Try a Pumpkin Spice Signature Latte and pair it with one of your favorite Pumpkin Bakery Items today</div>
-                <button class="buttons pink">find a store</button>
-            </div>
-        </div>
-        <div class="fourth-banner">
-            <div class="espresso fourthBox">
-                <div class="fourth-text">
-                    <h3>sipping is believing</h3>
-                    <h1>HAND CRAFTED ESPRESSO DRINKS</h1>
-                </div>
-                <img src="/assets/asset 14.jpeg" alt="image" width="30%">
-            </div>
-            <div class="sandwitch">
-                <div class="fourth-text">
-                    <h3>Freshly Made</h3>
-                    <h1>ALL-DAY BREAKFAST SANDWICHES</h1>
-                </div>
-                <img src="/assets/asset 15.png" alt="image" width="60%">
-            </div>
-            <div class="hotCoffee">
-                <div class="fourth-text">
-                    <h3>Dunkin’ Classic</h3>
-                    <h1>HOT COFFEE</h1>
-                </div>
-                <img src="/assets/asset 16.jpeg" alt="image" width="60%">
-            </div>
-        </div>
-        <div class="fifth-banner">
-            <img src="/assets/back_to_school_desktop.png" alt="image" style="width: 100%;">
-            <div class="fifth_text">
-                <div>
-                    <h2 class="center-3">
-                        FUEL FOR BACK-<br>TO-SCHOOL
-                    </h2>    
-                </div>
-                <div>Send an eGift card and treat your favorite 
-                    <br>teacher or student to a Dunkin' Run on you!
-                </div>
-                <br>
-                <button class="buttons pink">
-                    send an egift card
-                </button>
-            </div>
-        </div>
-        <div class="sixth-banner">
-            <img src="/assets/asset 19.svg" alt="image" class="sixth-image">
-            <div class="sixth_text">
-                <div>
-                    <h2 class="center-3">
-                        come visit
-                    </h2>
-                </div>
-                <div>Find a Dunkin' Near You</div>
-                <br>
-                <br>
-                <button class="buttons pink">
-                    view location
-                </button>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="footer_share">
-                <div class="footer_quicklink">
-                    <div class="quicklink_title">quick links</div>
-                    <ul>
-                        <li class="links">press room</li>
-                        <li class="links">mobile app</li>
-                        <li class="links">coperate</li>
-                        <li class="links">sustainability</li>
-                        <br>
-                        <li class="links">about us</li>
-                        <li class="links">franchising</li>
-                        <li class="links">contact us</li>
-                        <li class="links">site map</li>
-                    </ul>
-                </div>
-                <div class="footer_followUs">
-                    <div class="followUs_title">follow us</div>
-                    <ul>
-                        <li class="socials">
-                            <a href="#x">
-                                <img src="/assets/asset 20.svg" alt="image">
-                            </a>
-                        </li>
-                        <li class="socials">
-                            <a href="#">
-                                <img src="/assets/asset 21.svg" alt="image">
-                            </a>
-                        </li>
-                        <li class="socials">
-                            <a href="#">
-                                <img src="/assets/asset 22.svg" alt="image">
-                            </a>
-                        </li>
-                        <li class="socials">
-                            <a href="#">
-                                <img src="/assets/asset 23.svg" alt="image">
-                            </a>
-                        </li>
-                        <li class="socials">
-                            <a href="#">
-                                <img src="/assets/asset 24.svg" alt="image">
-                            </a>
-                        </li>
-                        <li class="socials">
-                            <a href="#">
-                                <img src="/assets/asset 25.svg" alt="image">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer_ourPatner">
-                <div class="footer_ourPatner_title">our partners</div> 
-                <div class="partners">
-                    <div class="jetblue">
-                        <img src="/assets/asset 26.png" alt="">
-                    </div>
-                    <div class="BR">
-                        <img src="/assets/asset 27.png" alt="">
-                    </div>
-                    <div class="BR">
-                        <img src="/assets/RedSox.jpg" alt="">
-                    </div>
-                    <div class="BR">
-                        <img src="/assets/new-england-patriots.png" alt="">
-                    </div>
-                    <div class="BR">
-                        <img src="/assets/boston-celtics.png" alt="">
-                    </div>
-                    <div class="BR">
-                        <img src="/assets/boston-bruins.png" alt="">
-                    </div>
-                    <div class="BR">
-                        <img src="/assets/NERevsLogo2.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="bottomFooter">
-                <div>
-                    <ul>
-                        <li class="bottomFooter_list">terms of use</li>
-                        <li class="bottomFooter_list">privacy policy</li>
-                        <li class="bottomFooter_list">do not sell my personal info</li>
-                        <li class="bottomFooter_list">your ad choices</li>
-                        <li class="bottomFooter_list">ca transperancy in suppply chains act</li>
-                        <li class="bottomFooter_list">wed accessibility</li>
-                    </ul>
-                </div>
-                <br>
-                <br>
-                <div>
-                    ©2023 DD IP Holder LLC
-                </div>
-            </div>
-        </div>
-    </div>  
+        </footer>
+    </div>
 </body>
 </html>
